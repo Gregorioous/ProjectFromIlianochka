@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:padding="10dp"
+        android:background="@color/black"
+        tools:context=".CostRepair">
+        <androidx.appcompat.widget.AppCompatImageView
+            android:id="@+id/resIcon"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/love"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintLeft_toLeftOf="parent"
+            app:layout_constraintRight_toRightOf="parent"
+            android:layout_margin="10dp"/>
+
+
+        <androidx.appcompat.widget.AppCompatTextView
+            android:id="@+id/costRepair"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            app:layout_constraintTop_toBottomOf="@id/resIcon"
+            android:layout_marginTop="30dp"
+            android:textSize="20dp"
+            android:fontFamily="@font/kelly"
+            android:textColor="@color/white"/>
+
+        <androidx.appcompat.widget.AppCompatTextView
+            android:id="@+id/costMaterials"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            app:layout_constraintTop_toBottomOf="@id/costRepair"
+            android:layout_marginTop="10dp"
+            android:textSize="20dp"
+            android:fontFamily="@font/kelly"
+            android:textColor="@color/white"/>
+
+        <androidx.appcompat.widget.AppCompatTextView
+            android:id="@+id/including"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            app:layout_constraintTop_toBottomOf="@id/costMaterials"
+            android:layout_marginTop="20dp"
+            android:fontFamily="@font/roboto"
+            android:text="@string/including"
+            android:textColor="@color/orange"/>
+
+        <androidx.appcompat.widget.AppCompatTextView
+            android:id="@+id/costLift"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            app:layout_constraintTop_toBottomOf="@id/including"
+            android:layout_marginTop="10dp"
+            android:textSize="15dp"
+            android:fontFamily="@font/kelly"
+            android:textColor="@color/white"/>
+
+        <androidx.appcompat.widget.AppCompatTextView
+            android:id="@+id/costDelivery"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            app:layout_constraintTop_toBottomOf="@id/costLift"
+            android:layout_marginTop="10dp"
+            android:textSize="15dp"
+            android:fontFamily="@font/kelly"
+            android:textColor="@color/white"/>
+
+        <androidx.appcompat.widget.AppCompatTextView
+            android:id="@+id/headerContactMe"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            app:layout_constraintTop_toBottomOf="@id/costDelivery"
+            android:layout_marginTop="40dp"
+            android:textSize="20dp"
+            android:textAlignment="center"
+            android:text="@string/contactMe"
+            android:fontFamily="@font/kelly"
+            android:textColor="@color/orange"/>
+
+        <androidx.appcompat.widget.AppCompatImageButton
+            android:id="@+id/whatsapp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            app:layout_constraintTop_toBottomOf="@id/headerContactMe"
+            app:layout_constraintLeft_toLeftOf="parent"
+            app:layout_constraintRight_toRightOf="parent"
+            android:layout_marginTop="10dp"
+            android:background="@android:color/transparent"
+            android:src="@drawable/loveling" />
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+</layout>

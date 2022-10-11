@@ -1,0 +1,26 @@
+<resources>
+    <string name="app_name">Услуги от Ильяночки</string>
+    <string name="enterAreaObject">Введите размер прибора</string>
+    <string name="enterDistanceObject">Кол-во км от точки на трассе</string>
+    <string name="selectTypeRepair">Выберите тип услуг</string>
+    <string name="draftRepair">Черновые</string>
+    <string name="cosmetiqRepair">Косметические</string>
+    <string name="capitalRepair">Капитальные</string>
+    <string name="euroRepair">Групповое мероприятие</string>
+    <string name="selectTypeLift">Время</string>
+    <string name="notLift">10 мин</string>
+    <string name="passengerLift">30 мин</string>
+    <string name="allLift">По договорённости</string>
+    <string name="selectLocation">Ваше местоположение</string>
+    <string name="city">г.Санкт-Петербург место на трассе</string>
+    <string name="region">Выезд по адресу</string>
+    <string name="calculations">РАССЧИТАТЬ СТОИМОСТЬ УСЛУГ</string>
+    <string name="error">Вы ввели не все данные!</string>
+    <string name="resCostRepair">Стоимость Услуг: </string>
+    <string name="resCostMaterials">Стоимость Дополнительных услуг: </string>
+    <string name="resCostLift">Стоимость подъема аппарата: </string>
+    <string name="resCostDelivery">Стоимость доставки Дополнительных инструментов: </string>
+    <string name="contactMe">Свяжитесь с нами для подробной консультации: </string>
+    <string name="including">В том числе: </string>
+    <string name="currency"> Р.</string>
+</resources>
